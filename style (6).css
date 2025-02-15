@@ -1,0 +1,41 @@
+/* Brown paper background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2b48c; /* Brown paper look */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Letter container */
+.letter {
+    background-color: #f5deb3; /* Light brown paper */
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid #8b4513; /* Dark brown border */
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #8b4513; /* Dark brown */
+}
+
+/* Paragraph styling */
+p {
+    color: #5a3e1b; /* Deep brown */
+    line-height: 1.6;
+}
+
+/* Signature styling */
+.signature {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    color: #8b4513;
+}
